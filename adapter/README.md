@@ -51,9 +51,9 @@ public class Adapter implements ITargetInterface {
 
 ### How to implement Adapter Design Pattern : 
 1. Identify the interface expected by the client class (the Target interface).
-2.Create a class (the Adaptee class) that has a method with a different interface than the one expected by the client.
-3.Create an Adapter class that implements the Target interface and has a reference to an instance of the Adaptee class.
-4.The Adapter class should delegate method calls from the Target interface to the Adaptee class's method.
-5.The client class should work with the Target interface, and the Adapter class should be used to instantiate the Adaptee class and provide the appropriate interface for the client.
+2. Create a class (the Adaptee class) that has a method with a different interface than the one expected by the client.
+3. Create an Adapter class that implements the Target interface and has a reference to an instance of the Adaptee class.
+4. The Adapter class should delegate method calls from the Target interface to the Adaptee class's method.
+5. The client class should work with the Target interface, and the Adapter class should be used to instantiate the Adaptee class and provide the appropriate interface for the client.
 
 
