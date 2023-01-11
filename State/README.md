@@ -86,5 +86,19 @@ Using State Design Pattern
 
 ### [FULL Solution/Improved  Code](gumballstate/)
 
+<hr>
+
+### ATM State Design Pattern Example : 
+
+1. Think about all Possible States for the ATM : 
+- HasCard
+- NoCard
+- HasPIN
+- NoCash
+2. Think about all different transition (how the user could use an ATM)
+- Insert Card
+- Eject Card
+- Insert PIN
+- Request Cash
 
 
