@@ -84,5 +84,7 @@ Using State Design Pattern
 <img src="https://lh5.googleusercontent.com/LhB9ubqmuXkV9M9Jvae0iEWCfaH3C7amgZvNYUhsdfNHg6DDlhpDiKVZOZvpTdaTAdaZHmP4Ho0AIG6U9Qk_YJkDmskSTrx-ZZnZwTTUoViQQaQV0UoU13WKRodReWXbRnshruxPF2L1xQz-QlmScPjzhR285fA405B8JBoGP3Hgz_lquqm0i_oFfBszJQ">
 </div>
 
+### [FULL Solution/Improved  Code](gumballstate/)
+
 
 
