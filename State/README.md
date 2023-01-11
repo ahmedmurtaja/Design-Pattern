@@ -62,4 +62,27 @@ quarter action
  }
  }
 ```
-[FULL CODE](/master/State/GumballMachine.java)
+[FULL CODE](GumballMachine.java)
+
+<div align="center">
+<img src="https://miro.medium.com/max/640/0*VxfRUevEgagTYfYd.webp">
+</div>
+
+### The problem:
+You have to change the behavior of the object during the life of the so-called runtime program or you may have a set of quite complicated conditional statements, then a better solution will be to use the State pattern than several dozen conditional statements.
+
+<hr>
+
+### The Solution :
+Using State Design Pattern
+1. First, we’re going to define a ``State interface`` that contains a method for every action in the Gumball Machine.
+2. Then we’re going to ``implement`` a ``State class(concrete state)`` for every state of the machine. These classes will be responsible for the behavior of the machine when it is in the corresponding state.
+3. Finally, we’re going to get rid of all of our conditional code and instead ``delegate`` to the ``state class`` to do the work for us.
+
+### Class Diagram 
+<div align="center">
+<img src="https://lh5.googleusercontent.com/LhB9ubqmuXkV9M9Jvae0iEWCfaH3C7amgZvNYUhsdfNHg6DDlhpDiKVZOZvpTdaTAdaZHmP4Ho0AIG6U9Qk_YJkDmskSTrx-ZZnZwTTUoViQQaQV0UoU13WKRodReWXbRnshruxPF2L1xQz-QlmScPjzhR285fA405B8JBoGP3Hgz_lquqm0i_oFfBszJQ">
+</div>
+
+
+
