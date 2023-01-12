@@ -6,8 +6,8 @@
 
 
 1. [Adapter Design Pattern](/adapter/)
-2. [Decorator Design Pattern](/decorator/)
+2. [Decorator Design Pattern](/Decorator/)
 3. [iterator Design Pattern](/iterator/)
-4. [Singleton Design Pattern](/singleton/)
-5. [Strategy Design Pattern](/strategy/)
-6. [State Design Pattern](/state/)
+4. [Singleton Design Pattern](/Singleton/)
+5. [Strategy Design Pattern](/Strategy/)
+6. [State Design Pattern](/State/)
