@@ -15,12 +15,15 @@ Define a family of algorithms encapsualte each one, and make them interchangeabl
 - We have a class that has a method that does a specific task.
 - We want to add a new feature to this class, but we don't want to change the existing code.
 
+### The Solution:
+<div align="center">
+<img src="https://blog.ankitsanghvi.in/content/images/2021/04/strat-cat.jpg">
+</div>
 ### Class Diagram :
 
 <div align="center">
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/classss.jpg">
 </div>
-
 ### What are the main components of the Strategy Design Pattern?
 
 - In Duck Example : Duck which is the Context class having several behaviuors (fly, quack, display) which are the ``Strategy classes``.
