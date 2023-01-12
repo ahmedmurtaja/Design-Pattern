@@ -89,3 +89,20 @@ displayBehavior.display();
 3. Create concrete classes that implement the new interface.
 4. Create a context class that will use a concrete class that implements the new interface.
 5. The context class must have a setter to change the behavior at runtime.
+
+> We call super to set the behaviors or uing setters in the constructor
+
+```java
+
+super(IFlyBehavior flyBehavior, IQuackBehavior quackBehavior, IDisplayBehavior displayBehavior);
+
+
+```
+or
+    
+```java
+
+RubberDuck rubberDuck = new RubberDuck();
+rubberDuck.setFlyBehavior(new FlyNoWay());
+
+```
