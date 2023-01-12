@@ -4,7 +4,16 @@
 
 The Iterator Pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation , it doesnt matter what an object structure is,all i need is an iterator.
 
-So we want to `encapsulate` the traversal of an aggregate object in an iterator object.
+- So we want to `encapsulate` the traversal of an aggregate object in an iterator object.
+- iterator provieds you with uniform way to accss differernt collection
+
+### Class Diagram :
+
+<div align="center">
+<img src="https://www.tutorialspoint.com/design_pattern/images/iterator_pattern_uml_diagram.jpg">
+</div>
+
+
 
 ### How to implement iterator Design Pattern :
 
