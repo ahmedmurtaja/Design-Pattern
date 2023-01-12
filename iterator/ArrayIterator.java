@@ -7,7 +7,7 @@ public class ArrayIterator implements IIterator {
     public ArrayIterator(MenuItems menuItems[]) {
         this.menuItems = menuItems;
     }
-
+// TODO complete pattern implementation
 
 
     @Override
