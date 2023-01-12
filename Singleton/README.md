@@ -9,6 +9,10 @@ The singleton pattern is a software design pattern that restricts the instantiat
 
 ### Class Diagram
 
+<div align="center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Singleton_UML_class_diagram.svg/1200px-Singleton_UML_class_diagram.svg.png" width="400" />
+</div>
+
 ### How To Implement ?
 
 -  ~~ public ~~ private constructor to prevent other objects from instantiating this class.
