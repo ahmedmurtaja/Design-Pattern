@@ -5,4 +5,9 @@
 <hr>
 
 
-1. [Adapter Design Pattern](/adapter/README.md)
+1. [Adapter Design Pattern](/adapter/)
+2. [Decorator Design Pattern](/decorator/)
+3. [iterator Design Pattern](/iterator/)
+4. [Singleton Design Pattern](/singleton/)
+5. [Strategy Design Pattern](/strategy/)
+6. [State Design Pattern](/state/)
