@@ -19,6 +19,7 @@ Define a family of algorithms encapsualte each one, and make them interchangeabl
 <div align="center">
 <img src="https://blog.ankitsanghvi.in/content/images/2021/04/strat-cat.jpg">
 </div>
+
 ### Class Diagram :
 
 <div align="center">
