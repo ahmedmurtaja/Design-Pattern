@@ -23,7 +23,7 @@ Define a family of algorithms encapsualte each one, and make them interchangeabl
 ### Class Diagram :
 
 <div align="center">
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/classss.jpg">
+<img src="https://miro.medium.com/max/1400/1*9hN9PDGic_nmL4VOL-B73Q.png">
 </div>
 ### What are the main components of the Strategy Design Pattern?
 
