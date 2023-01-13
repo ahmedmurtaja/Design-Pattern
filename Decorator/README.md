@@ -43,7 +43,7 @@
 ### How To Implement Decorator Pattern ?'
 
 1. Create an interface for the component that will have the operations to be decorated.
-   > in pizza example, we have an interface Pizza with method getDescription() and getCost().
+   > in pizza example, we have an interface **Pizza** with method getDescription() and getCost().
 
 ```java
 public interface Pizza {
