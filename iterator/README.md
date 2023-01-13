@@ -52,6 +52,72 @@ public class ConcreteIterator implements Iterator {
     }
 }
 ```
+- Create an interface that defines the methods to create an iterator object.
+
+```java
+package iterator;
+
+public interface Aggregate {
+    Iterator createIterator();
+}
+```
+- Create a concrete class that implements the interface and provides the implementation of the methods.
+
+```java
+package iterator;
+
+public class ConcreteAggregate implements Aggregate {
+    private Object[] items = new Object[10];
+    private int total = 0;
+
+    @Override
+    public Iterator createIterator() {
+        return new ConcreteIterator(this);
+    }
+
+    public int count() {
+        return total;
+    }
+
+    public Object get(int index) {
+        return items[index];
+    }
+
+    public void add(Object item) {
+        items[total++] = item;
+    }
+}
+```
+- Create a client class that uses the iterator to access the elements of the aggregate object.
+
+```java
+package iterator;
+
+public class Client {
+    public static void main(String[] args) {
+        ConcreteAggregate aggregate = new ConcreteAggregate();
+        aggregate.add("item 1");
+        aggregate.add("item 2");
+        aggregate.add("item 3");
+        aggregate.add("item 4");
+        aggregate.add("item 5");
+
+        Iterator iterator = aggregate.createIterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
+    }
+}
+```
+- Output
+
+```java
+item 1
+item 2
+item 3
+item 4
+item 5
+```
 
 For Example:  Array iterator
 
